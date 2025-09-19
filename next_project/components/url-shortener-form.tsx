@@ -10,7 +10,7 @@ import { Label } from "@/components/ui/label"
 import { useToast } from "../hooks/use-toast"
 import { Copy, Link, Clock } from "lucide-react"
 import { apiClient, type ShortUrl } from "../lib/api"
-import { ClientLogger } from "../lib/logger"
+import { ClientLogger } from "../../loggingMiddleware/logger"
 
 interface UrlShortenerFormProps {
   onUrlCreated?: (url: ShortUrl) => void

@@ -4,7 +4,7 @@ import React from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { AlertTriangle, RefreshCw } from "lucide-react"
-import { ClientLogger } from "../lib/logger"
+import { ClientLogger } from "../../loggingMiddleware/logger"
 
 
 interface ErrorBoundaryState {

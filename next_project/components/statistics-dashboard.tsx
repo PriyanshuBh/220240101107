@@ -12,7 +12,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 import { Search, TrendingUp, Clock, MousePointer, ExternalLink } from "lucide-react"
 
 import { apiClient, UrlStats } from "../lib/api"
-import { ClientLogger } from "../lib/logger"
+import { ClientLogger } from "../../loggingMiddleware/logger"
 
 export function StatisticsDashboard() {
   const [shortCode, setShortCode] = useState("")
